@@ -44,6 +44,6 @@ if st.button("Predict"):
     prediction = model.predict(input_data)
 
     if prediction[0] == 1:
-        st.error("The model predicts: PCOS Positive ❌")
+        st.error("The model predicts: PCOS Positive 😔")
     else:
-        st.success("The model predicts: No PCOS ✅")
+        st.success("The model predicts: Relax, No PCOS ✅")
