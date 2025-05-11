@@ -14,7 +14,7 @@ st.title("PCOS Prediction App")
 st.write("Provide the following information to check for PCOS:")
 
 #input features
-cycle_length = st.number_input("Cycle length(days)", min_value=10, max_value=100)
+cycle_length = st.number_input("Cycle length(days)", min_value=0, max_value=10)
 follicle_count_right = st.number_input("Follicle No. (R)", min_value=0, max_value=50)
 follicle_count_left = st.number_input("Follicle No. (L)", min_value=0, max_value=50)
 AMH = st.number_input("AMH Level", min_value=0.0, max_value=15.0)
