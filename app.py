@@ -29,9 +29,12 @@ Fast_Food=st.radio("Fast Food?",["Yes","No"])
 
 
 # Convert Yes/No to 1/0
-irregular_periods_val = 1 if irregular_periods == "Yes" else 0
+Pimples_val=  1 if Pimples == "Yes" else 0
 hair_growth_val = 1 if hair_growth == "Yes" else 0
 weight_gain_val = 1 if weight_gain == "Yes" else 0
+skin_Darkening_val= 1 if skin_Darkening == "Yes" else 0
+Fast_Food_val= 1 if Fast_Food == "Yes" else 0
+
 
 # Prepare input for model
 if st.button("Predict"):
