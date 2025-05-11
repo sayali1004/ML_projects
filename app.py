@@ -4,7 +4,7 @@ import pickle
 from joblib import load
 
 # Load trained model
-with open("pcos_pred/pcos_model_.pkl", "rb") as file:
+with open("pcos_model_.pkl", "rb") as file:
     model = load("pcos_model_.pkl")
 
 
