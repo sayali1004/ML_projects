@@ -1,10 +1,12 @@
 import streamlit as st
 import numpy as np
 import pickle
+from joblib import load
 
 # Load trained model
 with open("pcos_pred/pcos_model_.pkl", "rb") as file:
-    model = pickle.load(file)
+    model = load("pcos_model_.pkl")
+
 
 # Set title
 st.title("PCOS Prediction App")
