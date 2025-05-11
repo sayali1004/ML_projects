@@ -39,7 +39,7 @@ Fast_Food_val= 1 if Fast_Food == "Yes" else 0
 # Prepare input for model
 if st.button("Predict"):
     # You may need to match the exact feature order from training
-    input_data = np.array([[cycle_length, follicle_count_right,follicle_count_left, AMH, Pimples, hair_growth, weight_gain, skin_Darkening,Fast_Food]])
+    input_data = np.array([[cycle_length, follicle_count_right,follicle_count_left, AMH, Pimples_val, hair_growth_val, weight_gain_val, skin_Darkening_val,Fast_Food_val]])
     
     prediction = model.predict(input_data)
 
