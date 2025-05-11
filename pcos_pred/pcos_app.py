@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load trained model
-with open("pcos_pred/pcos_model_(1).pkl", "rb") as file:
+with open("pcos_pred/pcos_model_ (1).pkl", "rb") as file:
     model = pickle.load(file)
 
 # Set title
